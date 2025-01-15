@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Tuki Entertainment - Professional Event Planning</title>
+      <link rel="icon" type="image/png" href="assets/logo.png" />
+      <link rel="stylesheet" href="styles.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      />
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+   </head>
+   <body>
+      <div class="background">
+         <video autoplay muted loop poster="assets/background.jpg">
+            <source src="assets/background-video.mp4" type="video/mp4" />
+         </video>
+      </div>
+      <header>
+         <nav>
+            <div class="logo">
+               <img src="assets/logo.png" alt="Tuki Entertainment Logo" />
+            </div>
+            <div class="hamburger">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+            <ul class="nav-links">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="events.html">Events</a></li>
+               <li><a href="about.html">About Us</a></li>
+               <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <section class="contact-hero">
+            <h1>Contact Us</h1>
+            <p>Let's Make Your Event Special</p>
+         </section>
+
+         <section class="contact-content">
+            <div class="contact-info">
+               <h2>Get in Touch</h2>
+               <div class="contact-grid">
+                  <div class="info-item">
+                     <i class="fas fa-map-marker-alt"></i>
+                     <p>123 Event Street, City, State 12345</p>
+                  </div>
+                  <div class="info-item">
+                     <i class="fas fa-phone"></i>
+                     <p>(555) 123-4567</p>
+                  </div>
+                  <div class="info-item">
+                     <i class="fas fa-envelope"></i>
+                     <p>info@eventmasterpro.com</p>
+                  </div>
+               </div>
+            </div>
+        
+            <div class="contact-form-container">
+               <h2 style = "text-align: center;margin-bottom: 20px;">Send Us a Message</h2>
+                  <form id="contactForm">
+                     <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required />
+                     </div>
+                     <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required />
+                     </div>
+                     <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" />
+                     </div>
+                     <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea
+                           id="message"
+                           name="message"
+                           required
+                        ></textarea>
+                     </div>
+                     <button type="submit" class="submit-btn">
+                        Send Message
+                     </button>
+                  </form>
+            </div>
+         </section>
+      </main>
+      <footer>
+         <div class="footer-content">
+            <div class="footer-section">
+               <h4>Contact Us</h4>
+               <p>Email: info@eventmasterpro.com</p>
+               <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+               <h4>Follow Us</h4>
+               <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom">
+            <p>&copy; 2024 Tuki Entertainment. All rights reserved.</p>
+         </div>
+      </footer>
+      <script src="script.js"></script>
+   </body>
+</html>

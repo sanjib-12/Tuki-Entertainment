@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Tuki Entertainment - Professional Event Planning</title>
+      <link rel="icon" type="image/png" href="assets/logo.png" />
+      <link rel="stylesheet" href="styles.css" />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      />
+   </head>
+   <body>
+      <div class="background">
+         <video autoplay muted loop poster="assets/background.jpg">
+            <source src="assets/background-video.mp4" type="video/mp4" />
+         </video>
+      </div>
+      <header>
+         <nav>
+            <div class="logo">
+               <img src="assets/logo.png" alt="Tuki Entertainment Logo" />
+            </div>
+            <div class="hamburger">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+            <ul class="nav-links">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="events.html" class="active">Events</a></li>
+               <li><a href="about.html">About Us</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+         <section class="event-hero">
+            <h1>Our Events</h1>
+            <p>Discover Our Past Successes and Upcoming Celebrations</p>
+         </section>
+
+         <section class="events-container">
+            <!-- Upcoming Events Section -->
+            <h2 class="section-title">Upcoming Screenings</h2>
+
+            <h3 class="coming-soon"> Coming Soon!!!</h3>
+            <!-- <div class="events-list">
+
+               <div class="event-card">
+                  <div class="event-left">
+                     <div class="event-image">
+                        <img
+                           src="assets/pbks.jpg"
+                           alt="Nepali Film Screening"
+                        />
+                     </div>
+                     <div class="event-date">
+                        <span class="date">5</span>
+                        <span class="month">JAN</span>
+                     </div>
+                  </div>
+                  <div class="event-right">
+                        <h3>"Purna Bhadur ko Sarangi" - Windsor Premiere</h3>
+                        <div class="event-info">
+                           <p>
+                              <i class="fas fa-map-marker-alt"></i> Imagine
+                              Cinemas Lakeshore
+                           </p>
+                           <p><i class="fas fa-clock"></i> 2:00 PM</p>
+                           <p>
+                              <i class="fas fa-language"></i> Nepali with
+                              English Subtitles
+                           </p>
+                           <p class="event-description">
+                              First screening in Windsor! Join us for this highly
+                              anticipated Nepali blockbuster. Pre-show cultural
+                              performance and community gathering.
+                           </p>
+                        </div>
+                        <button class="register-btn">Book Tickets</button>
+                  </div>
+               </div> -->
+
+
+            <!-- Past Events Section -->
+            <h2 class="section-title">Past Events</h2>
+            <!-- <div class="events-list">
+               <div class="event-card past">
+                  <div class="event-left">
+                     <div class="event-image">
+                        <img
+                        src="assets/pbks.jpg"
+                        alt="Nepali Film Screening"
+                        />
+                     </div>
+                     <div class="event-date">
+                        <span class="date">15</span>
+                        <span class="month">DEC</span>
+                     </div>
+                  </div>
+                  <div class="event-right">
+                     <div class="event-details">
+                        <h3>"Purna Bhadur ko Sarangi</h3>
+                        <div class="event-info">
+                           <p>
+                              <i class="fas fa-map-marker-alt"></i> Windsor
+                              International Film Festival
+                           </p>
+                           <p><i class="fas fa-clock"></i> Completed</p>
+                           <p class="event-description">
+                              A successful screening of the award-winning Nepali
+                              film with over 200 attendees.
+                           </p>
+                        </div>
+                        <button class="register-btn">Book Tickets</button>
+                     </div>
+                  </div>
+               </div>
+            </div> -->
+            <div class="events-list">
+               <div class="event-card">
+                  <div class="event-left">
+                     <div class="event-image">
+                        <img
+                           src="assets/pbks.jpg"
+                           alt="Nepali Film Screening"
+                        />
+                     </div>
+                     <div class="event-date">
+                        <span class="date">5</span>
+                        <span class="month">JAN</span>
+                     </div>
+                  </div>
+                  <div class="event-right">
+                     <!-- <div class="event-details"> -->
+                        <h3>"Purna Bhadur ko Sarangi" - Windsor Premiere</h3>
+                        <div class="event-info">
+                           <p>
+                              <i class="fas fa-map-marker-alt"></i> Imagine
+                              Cinemas Lakeshore
+                           </p>
+                           <p><i class="fas fa-clock"></i>Completed</p>
+                           <p class="event-description">
+                              First screening in Windsor! and successful screening of the award-winning Nepali
+                              film with over 200 attendees.
+                           </p>
+                        </div>
+                        <button class="view-gallery-btn">View Gallery</button>
+                     <!-- </div> -->
+                  </div>
+               </div>
+
+               <!-- gallery view option -->
+               <div class="gallery-modal" id="galleryModal">
+                  <div class="modal-content">
+                     <span class="close-button">&times;</span>
+                     <div class="gallery-container">
+                          <button class="nav-button prev">&#10094;</button>
+                          <div class="gallery-view">
+                              <img src="assets/background.jpg" alt="Gallery Image" class="gallery-image">
+                          </div>
+                          <button class="nav-button next">&#10095;</button>
+                      </div>
+                      <div class="dots-container"></div>
+                  </div>
+              </div>
+         </section>
+
+
+
+         <section class="event-stats">
+            <div class="stat-container">
+               <div class="stat-item">
+                  <i class="fas fa-calendar-check"></i>
+                  <h3>2+</h3>
+                  <p>Events Completed</p>
+               </div>
+               <div class="stat-item">
+                  <i class="fas fa-smile"></i>
+                  <h3>300+</h3>
+                  <p>Happy Guests</p>
+               </div>
+               <!-- <div class="stat-item">
+                  <i class="fas fa-award"></i>
+                  <h3>2+</h3>
+                  <p>Awards Won</p>
+               </div> -->
+            </div>
+         </section>
+      </main>
+      <footer>
+         <div class="footer-content">
+            <div class="footer-section">
+               <h4>Contact Us</h4>
+               <p>Email: info@eventmasterpro.com</p>
+               <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+               <h4>Follow Us</h4>
+               <div class="social-links">
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+               </div>
+            </div>
+         </div>
+         <div class="footer-bottom">
+            <p>&copy; 2024 Tuki Entertainment. All rights reserved.</p>
+         </div>
+      </footer>
+      <script src="script.js"></script>
+   </body>
+</html>
